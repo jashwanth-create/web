@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    padding:5px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.content {
+    padding: 10px;
+    background-color: #a6e6e6;
+    color: black;
+    display: flex;
+    gap: 10px;
+}
+nav{
+    display: flex;
+    gap: 50px;
+    padding-left : 25rem;
+}
+a{
+      text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    color:rgb(46, 33, 9);
+}
+.hero-text {
+    padding: 10px;
+    padding-top:-5px;
+    justify-content: center;
+}
+.footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.foot-text{
+
+    text-align: left;
+}
